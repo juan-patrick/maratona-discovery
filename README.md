@@ -7,6 +7,9 @@ Esse projeto foi criado para acompanhar a maratona Discovery ministrada pelo May
 - [ ] [Discovery - Aula 03](https://www.youtube.com/watch?v=41VftS_pjnI&&ab_channel=MaykBrito)
 
 ### <b>Opinião sobre a Maratona</b>
+Essa maratona foi muito boa, logo de cara o Mayk já dá um choque de realidade em muitos Dev's que não estão entendo a situação atual do mercado e da sua própria carreira. Ele também dá dicas sobre os caminhos a seguir para quem está começando, fala sobre a Soft e Hard skills de um programador, além de como se organizar para estudar e trabalhar e mudar um pouco a mentalidade daqueles que não tem foco ou vontade.
+
+Abordando o básico do conhecimento WEB, o Mayk conseguiu passar bastante conhecimento e que é usado em práticamente todos os projetos que envolva a WEB.
 *Em breve*
 
 ---
