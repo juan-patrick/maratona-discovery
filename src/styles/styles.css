@@ -1,6 +1,8 @@
 /* Global */
 
 :root {
+	--black-70: rgba(0, 0, 0, 0.7);
+
 	--dark-blue: #363f5f;
 	--green: #49aa26;
 	--light-green: #3dd705;
@@ -128,6 +130,11 @@ header {
 }
 
 /* Table */
+#transaction {
+	display: block;
+	overflow-x: auto;
+}
+
 #data-table {
 	width: 100%;
 	border-spacing: 0 0.5rem;
@@ -186,4 +193,18 @@ footer {
 	color: var(--dark-blue);
 
 	opacity: 0.6;
+}
+
+/* Responsive */
+
+@media (min-width: 800px) {
+	html {
+		font-size: 87.5%;
+	}
+
+	#balance {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
 }
