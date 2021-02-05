@@ -60,7 +60,7 @@ h2 {
 	color: var(--dark-blue);
 }
 
-/* Links and Buttons */
+/* Links, Buttons and Inputs */
 
 a {
 	color: var(--green);
@@ -71,9 +71,78 @@ a:hover {
 	color: var(--light-green);
 }
 
-.button.new {
-	display: inline-block;
-	margin-bottom: 0.8rem;
+button {
+	width: 100%;
+	height: 50px;
+
+	border: none;
+	color: var(--contrast-text);
+	background: var(--green);
+
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+
+	padding: 0;
+
+	border-radius: 0.25rem;
+	transition: 0.2s ease-out;
+
+	cursor: pointer;
+}
+
+a.button {
+	width: 100%;
+	height: 50px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: none;
+	color: var(--contrast-text);
+	background: var(--green);
+
+	padding: 0;
+
+	border-radius: 0.25rem;
+
+	transition: 0.2s ease-out;
+}
+
+a.button:hover,
+button:hover {
+	background: var(--light-green);
+}
+
+.outlined {
+	color: var(--green);
+	background: none;
+	border: 1px solid var(--green);
+}
+
+.outlined:hover {
+	color: var(--contrast-text);
+	background: var(--green);
+	border: 1px solid var(--green);
+}
+
+.outlined.error {
+	color: var(--red);
+	background: none;
+	border: 1px solid var(--red);
+}
+
+.button.outlined.error:hover {
+	color: var(--contrast-text);
+	background: var(--red);
+	border: 1px solid var(--red);
+}
+
+input {
+	border: none;
+	border-radius: 0.2rem;
+	padding: 0.8rem;
+	width: 100%;
 }
 
 /* Header */
@@ -135,6 +204,11 @@ header {
 	overflow-x: auto;
 }
 
+#transaction a.new {
+	display: inline-block;
+	margin-bottom: 0.8rem;
+}
+
 #data-table {
 	width: 100%;
 	border-spacing: 0 0.5rem;
@@ -183,6 +257,72 @@ td.income {
 
 td.expense {
 	color: var(--red);
+}
+
+/* Modal */
+.modal-overlay {
+	width: 100%;
+	height: 100%;
+
+	background-color: var(--black-70);
+
+	position: fixed;
+
+	top: 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	opacity: 0;
+	visibility: hidden;
+
+	z-index: 999;
+}
+
+.modal-overlay.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.modal {
+	background: var(--background);
+	padding: 2.4rem;
+	border-radius: 0.25rem;
+
+	position: relative;
+	width: 90%;
+	max-width: 500px;
+
+	z-index: 1;
+}
+
+/* Form */
+#form {
+	max-width: 500px;
+}
+
+#form h2 {
+	margin-top: 0;
+}
+
+.input-group {
+	margin-top: 0.8rem;
+}
+
+.input-group small {
+	opacity: 0.5;
+}
+
+.input-group.actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input-group.actions button,
+.input-group.actions .button {
+	width: 48%;
 }
 
 /* Footer */
