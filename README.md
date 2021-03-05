@@ -1,6 +1,10 @@
 # Maratona Discovery
 Esse projeto foi criado para acompanhar a maratona Discovery ministrada pelo Mayk Brito.
 
+<img src="src/example/devfinances.png" width="100%">
+<br>
+<br>
+
 ### Aulas da Maratona
 - [x] [Discovery - Aula 01](https://www.youtube.com/watch?v=NlDr6JX3VvA&t&ab_channel=MaykBrito)
 - [x] [Discovery - Aula 02](https://www.youtube.com/watch?v=f13z6eFJEQg&ab_channel=MaykBrito)
